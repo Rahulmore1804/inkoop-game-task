@@ -72,7 +72,7 @@ export default class Player2 {
         this.health = 100+ this.health
         winm1 = winm1+1;
         if (winm1===3){
-          document.getElementById("changewon").innerHTML = "<h1>Congo, Player 1 Won</h1>";
+          document.getElementById("changewon").innerHTML = "<h2>Congo, Player 1 Won</h2>";
           document.getElementById('changewon').id = 'div2';
       }
       }

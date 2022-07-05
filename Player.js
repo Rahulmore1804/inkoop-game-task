@@ -40,7 +40,7 @@ export default class Player {
       this.health = 100 + this.health;
       winm = winm+1;
       if (winm===3){
-        document.getElementById("changewon").innerHTML = "<h1>Congo, Player 2 Won</h1>";
+        document.getElementById("changewon").innerHTML = "<h2>Congo, Player 2 Won</h2>";
         document.getElementById('changewon').id = 'div2';
     }
    
