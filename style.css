@@ -9,9 +9,12 @@ body {
   }
   h1 {
     margin: 0px;
-    margin-bottom: 10px;
-    font-size: 2.9em;
+    margin-bottom: 0px;
+    font-size: 2.6em;
     color: rgb(23, 21, 21);
+  }
+  .h2{
+    font-size: 0.4em;
   }
 
 
@@ -43,4 +46,9 @@ body {
   padding: 0;
   margin: 0;
   height: 50px;
+}
+#div2{
+  margin: 0;
+  padding: 0;
+
 }
